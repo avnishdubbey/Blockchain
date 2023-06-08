@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    font-style: normal;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    max-width: 100%;
+    font-size: 100%;
+    font-style: normal;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+.main-inner-container-wrapper {
+    display: flex;
+    position: fixed;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 500;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    z-index: 10;
+    background-image: linear-gradient(to right, rgb(15, 24, 44), rgb(11, 51, 82), rgb(18, 103, 175), rgb(23, 89, 218), rgb(18, 103, 175), rgb(11, 51, 82), rgb(15, 24, 44));
+    padding: 0.75rem 1rem;
+}
+
+.first-inner-container {
+    display: flex;
+    margin: 0px auto;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    background-color: rgb(18, 29, 51);
+    position: fixed;
+    top: 40px;
+}
+
+.inner-first-container {
+    position: relative;
+    box-sizing: content-box;
+    margin: 0px auto;
+    max-width: 80rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    width: 100%;
+    height: 4.75rem;
+}
+
+.first-first-container {
+    text-decoration: none;
+    color: var(--grey900);
+}
+
+.first-first-container g {
+    flex-shrink: 0;
+    margin-right: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.first-second-container {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.first-second-container span {
+    color: rgb(204, 210, 222);
+    transition: color 500ms ease 0s, background-color 500ms ease 0s;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    position: relative;
+    width: 100%;
+    min-width: 4.75rem;
+    margin-right: 1.25rem;
+}
+
+.first-third-container{
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.third-first-third{
+    margin-right: 1.25rem;
+}
+.third-first-third button{
+    background: none rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 2.75rem;
+    transition: background-color 300ms ease-in-out 0s;
+}
+
+.second-first-third-container{
+    margin-right: 1.25rem;
+    height: 44px;
+    text-decoration: none;
+    color: var(--grey900);
+    background-color: transparent;
+}
+.third-first-button{
+    font-size: 14px;
+    width: auto;
+    height: 44px;
+    padding: 10px 14px;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 144%;
+    border-radius: 0.5rem;
+    border: 0.125rem solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    background: none;
+    margin-right: 10px;
+}
+.third-second-button{
+    font-size: 14px;
+    width: auto;
+    height: 44px;
+    padding: 10px 14px;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 144%;
+    border-radius: 0.5rem;
+    border: 0.125rem solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    color: none;
+    background-color: white;
+}
+.second-main-container{
+    position: relative;
+    top: -7.25rem;
+    padding-top: 7.25rem;
+    margin-bottom: -7.25rem;
+}
+.second-inner-container{
+    padding-top: 7.25rem;
+    background-color: rgb(20, 70, 153);
+    background-image: url(images/background\ image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    color: rgb(255, 255, 255);
+}
+.inner-second-container{
+    box-sizing: content-box;
+    max-width: 62.5rem;
+    margin: 0px auto;
+    padding: 0px 2.5rem;
+}
+.second-first-container{
+    max-width: 46.6875rem;
+    padding: 10.625rem 0px;
+}
+.second-first-container h1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 1.5rem;
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 3.625rem;
+}
+.second-first-container p{
+    margin-bottom: 2rem;
+    font-size: 1.60rem;
+    font-weight: 500;
+    line-height: 2.125rem;
+}
+.second-second-container{
+    display: flex;
+    gap: 1rem;
+}
+.second-second-container input{
+    width: 100%;
+    max-width: 24.1875rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(255, 255, 255);
+}
+.second-second-container button{
+    background-color: rgb(236, 245, 254);
+    color: rgb(12, 108, 242);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0.75rem 1.375rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    border-radius: 0.5rem;
+    border: 0.125rem solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    background: rgb(255, 255, 255);
+}
